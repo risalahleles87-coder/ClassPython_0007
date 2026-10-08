@@ -7,4 +7,7 @@ class Rectangle:
         self.length = length
         self.width = width
 
-    
+    # Fungsi untuk menghitung keliling (circumference)
+    def circumference(self):
+        return 2 * (self.length + self.width)
+
