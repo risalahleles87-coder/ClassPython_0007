@@ -14,4 +14,9 @@ try:
     # 3. Memanggil fungsi luas (area)
     print("Luas (Area):", rect.area(), "cm²")
 
-    
+    # Pengujian validasi input <= 0
+    print("\n--- Pengujian Validasi Input 0 ---")
+    rect_invalid = Rectangle(0, 5)
+
+except ValueError as e:
+    print("Error Handling Active:", e)
