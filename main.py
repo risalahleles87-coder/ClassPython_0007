@@ -8,4 +8,10 @@ try:
     # 1. Memanggil fungsi __str__ secara implisit melalui print
     print("Representasi Objek:", rect)
 
-   
+    # 2. Memanggil fungsi keliling (circumference)
+    print("Keliling (Circumference):", rect.circumference(), "cm")
+
+    # 3. Memanggil fungsi luas (area)
+    print("Luas (Area):", rect.area(), "cm²")
+
+    
