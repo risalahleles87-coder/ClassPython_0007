@@ -15,3 +15,6 @@ class Rectangle:
     def area(self):
         return self.length * self.width
 
+    # Fungsi __str__ untuk mengembalikan representasi string dari objek
+    def __str__(self):
+        return f"rectangle, {self.length} cm long, and {self.width} cm wide"
